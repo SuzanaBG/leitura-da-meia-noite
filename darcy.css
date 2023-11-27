@@ -1,0 +1,149 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'inter';
+    src: url('fonts/principal/Inter-VariableFont_slnt\,wght.ttf');
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-fundo: #E8E8E8;
+    --cor-um: #B56D6D;
+    --cor-dois: #823434;
+    --cor-tres: #4F1010;
+    --cor-quatro: #330000;
+}
+
+body {
+    background-color: var(--cor-fundo);
+}
+
+img {
+    height: auto;
+}
+
+.cabecalho {
+    display: flex;
+}
+
+.logo img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.titulo {
+    position: relative;
+    top: 30%;
+    left: 0%;
+}
+
+.titulo h1 {
+    position: relative;
+    top: 25%;
+    left: 0%;
+    color: #3D3D3D;
+    font-family: 'inter';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.titulo h2 {
+    position: relative;
+    top: 25%;
+    left: 0%;
+    color: #3D3D3D;
+    font-family: 'inter';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container {
+    display: flex;
+    margin-top: 4%;
+    padding: 0% 3% 2% 0%;
+}
+
+.darcy-p, .m1, .m2, .m3, .m4, .m5 {
+    padding-left: 3%;
+    color: #3D3D3D;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.quem-e, .mt1, .mt2, .mt3, .mt4, .mt5 {
+    color: #3D3D3D;
+    font-family: 'inter';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container2 {
+    display: flex;
+    margin-top: 4%;
+    padding: 0% 0%;
+}
+
+.darcy-lizzy {
+    display: flex;
+    justify-content: center;
+    padding: 2% 0%;
+}
+
+.container14 {
+    display: flex;
+    align-items: center;
+    padding: 0% 3%;
+    margin-bottom: 2%;
+}
+
+hr {
+    margin: 5% 0%;
+    border-top: 2px solid #8c8b8b;
+}
+
+a {
+    color: #3D3D3D;
+    text-decoration: none;
+}
+
+.suzana-p h1 {
+    padding-bottom: 1%;
+    color: #3D3D3D;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.suzana-p p {
+    color: #3D3D3D;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.suzana-p {
+    padding-left: 4%;
+}
+
+.livro {
+    display: flex;
+    padding-top: 3%;
+    padding-left: 30%;
+}

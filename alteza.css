@@ -1,0 +1,195 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'inter';
+    src: url('fonts/principal/Inter-VariableFont_slnt\,wght.ttf');
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-fundo: #E8E8E8;
+    --cor-um: #B56D6D;
+    --cor-dois: #823434;
+    --cor-tres: #4F1010;
+    --cor-quatro: #330000;
+}
+
+body {
+    background-color: var(--cor-fundo);
+}
+
+img {
+    height: auto;
+}
+
+.cabecalho {
+    display: flex;
+}
+
+.logo img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.titulo {
+    position: relative;
+    top: 30%;
+    left: 0%;
+}
+
+.titulo h1 {
+    position: relative;
+    top: 25%;
+    left: 0%;
+    color: #3D3D3D;
+    font-family: 'inter';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.titulo h2 {
+    position: relative;
+    top: 25%;
+    left: 0%;
+    color: #3D3D3D;
+    font-family: 'inter';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container, .container2 {
+    display: flex;
+    margin-top: 4%;
+    padding: 0% 3%;
+}
+
+.container3, .container5 {
+    margin-bottom: 1.5%;
+    margin-top: 4%;
+}   
+
+.container4 {
+    display: flex;
+    margin-top: 8%;
+    padding: 0% 10%;
+}
+
+.container6 {
+    padding: 0% 3%;
+}
+
+.container7 {
+    display: flex;
+    align-items: center;
+    padding: 0% 3%;
+    margin-bottom: 2%;
+}
+
+.sinopse-p {
+    padding-bottom: 1%;
+}
+
+.sinopse-p, .sinopse-p2 {
+    padding-left: 3%;
+}
+
+.sinopse-p p {  
+    color: #3D3D3D;
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.sinopse-p2 h1, .joinha-p h1, .rachel-p h1, .outros-p h1, .menores-h1 h1, .suzana-p h1 {
+    padding-bottom: 1%;
+    color: #3D3D3D;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.menores-h1 {
+    text-align: center;
+    margin-top: 8%;
+}
+
+.sinopse-p2 p, .joinha-p p, .livros-p p, .outros-p p, .menores-p, .suzana-p p {
+    color: #3D3D3D;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}  
+
+.suzana-p {
+    padding-left: 4%;
+}
+
+.rachel-p p {
+    color: #3D3D3D;
+    text-align: right;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.rachel-p h1 {
+    color: #3D3D3D;
+    text-align: right;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.rachel-p {
+    padding-top: 0%;
+}
+
+.joinha, .livros-p, .outros-p {
+    text-align: center;
+}
+
+.livros, .contos, .outros, .outros2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+.joinha p {
+    color: #3D3D3D;
+    font-family: Inter;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.livros img, .contos img, .outros img, .outros2 img{
+    padding: 0% 3%;
+}
+
+hr {
+    margin: 5% 0%;
+    border-top: 2px solid #8c8b8b;
+}
+
+a {
+    color: #3D3D3D;
+    text-decoration: none;
+}

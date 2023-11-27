@@ -1,0 +1,162 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'inter';
+    src: url('fonts/principal/Inter-VariableFont_slnt\,wght.ttf');
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-fundo: #E8E8E8;
+    --cor-um: #B56D6D;
+    --cor-dois: #823434;
+    --cor-tres: #4F1010;
+    --cor-quatro: #330000;
+}
+
+body {
+    background-color: var(--cor-fundo);
+}
+
+.cabecalho {
+    display: flex;
+}
+
+.logo img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.titulo {
+    position: relative;
+    top: 30%;
+    left: 0%;
+}
+
+.titulo h1 {
+    position: relative;
+    top: 30%;
+    left: 10%;
+    color: #3D3D3D;
+    font-family: 'inter';
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    gap: 15% 0%;
+}
+
+.left-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.mid-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-div {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.hipotese {
+    width: 100%; 
+    height: auto;
+    padding: 35% 0%;
+
+}
+
+.estilhaca-me {
+    width: 100%;
+    height: auto;
+    padding-bottom: 35%;
+}
+
+.jogo-do-amor {
+    width: 100%;
+    height: auto;
+    padding-bottom: 35%;
+}
+
+.sua-alteza {
+    width: 100%;
+    height: auto;
+    padding-bottom: 35%;
+}
+
+.heroi-perdido {
+    width: 100%;
+    height: auto;
+    padding-bottom: 35%;
+}
+
+.principe {
+    width: 100%;
+    height: auto;
+    padding: 35% 0%;
+}
+
+.teto {
+    width: 100%;
+    height: auto;
+    padding-bottom: 35%;
+}
+
+.liberte-me {
+    width: 100%;
+    height: auto;
+    padding-bottom: 35%;
+}
+
+.mentirosos {
+    width: 100%;
+    height: auto;
+    padding-bottom: 35%;
+}
+.percy1 {
+    width: 100%;
+    height: auto;
+    padding-bottom: 35%;
+}
+
+.incendeia-me{
+    width: 100%;
+    height: auto;
+    padding: 35% 0%;
+}
+
+.percy2 {
+    width: 100%;
+    height: auto;
+    padding-bottom: 35%;
+}
+
+.daisy {
+    width: 100%;
+    height: auto;
+    padding-bottom: 35%;
+}
+
+.um-de-nos {
+    width: 100%;
+    height: auto;
+    padding-bottom: 35%;
+}
+
+.atraves {
+    width: 100%;
+    height: auto;
+    padding-bottom: 35%;
+}

@@ -1,0 +1,150 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'inter';
+    src: url('fonts/principal/Inter-VariableFont_slnt\,wght.ttf');
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-fundo: #E8E8E8;
+    --cor-um: #B56D6D;
+    --cor-dois: #823434;
+    --cor-tres: #4F1010;
+    --cor-quatro: #330000;
+}
+
+body {
+    background-color: var(--cor-fundo);
+}
+
+.cabeçalho {
+    display: flex;
+}
+
+.logo img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.titulo {
+    position: relative;
+    top: 30%;
+    left: 0%;
+}
+
+.titulo h1 {
+    position: relative;
+    top: 30%;
+    left: 10%;
+    color: #3D3D3D;
+    font-family: 'inter';
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.otavio-div {
+    max-width: 100%;
+    position: relative;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.otavio-img {
+    width: 100%;
+    height: auto;
+}
+
+.otavio-p {
+    display: flex;
+    flex-direction: column;
+    gap: 5% 0%;
+    position: relative;
+    text-align: right;
+    margin-right: 3%;
+    margin-top: 9%;
+    }
+
+.p1 {
+    color: #3D3D3D;
+    font-family: 'inter';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.p2 {
+    color: #3D3D3D;
+    font-family: 'inter';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.p3 {
+    color: #3D3D3D;
+    font-family: 'inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.suzana-div {
+    max-width: 100%;
+    position: relative;
+    margin-top: 3%;
+    margin-right: 3%;
+}
+
+.suzana-img {
+    width: 100%;
+    height: auto;
+}
+
+.suzana-p {
+    display: flex;
+    flex-direction: column;
+    gap: 5% 0%;
+    position: relative;
+    text-align: left;
+    margin-left: 3%;
+    margin-top: 9%;
+}
+
+.amanda-div {
+    max-width: 100%;
+    position: relative;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-bottom: 2%;
+}
+
+.amanda-img {
+    width: 100%;
+    height: auto;
+}
+
+.amanda-p {
+    display: flex;
+    flex-direction: column;
+    gap: 5% 0%;
+    position: relative;
+    text-align: right;
+    margin-right: 3%;
+    margin-top: 9%;
+}

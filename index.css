@@ -1,0 +1,163 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'inter';
+    src: url('fonts/principal/Inter-VariableFont_slnt\,wght.ttf');
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-fundo: #E8E8E8;
+    --cor-um: #B56D6D;
+    --cor-dois: #823434;
+    --cor-tres: #4F1010;
+    --cor-quatro: #330000;
+}
+
+body {
+    background-color: var(--cor-fundo);
+}
+
+p {
+    margin-bottom: 30%;
+    color: #3D3D3D;
+    font-family: 'inter';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0.2%;
+}
+
+
+.instagram {
+    width: 100%;
+    height: auto;
+}
+
+.youtube {
+    width: 100%;
+    height: auto;
+}
+
+.x {
+    width: 100%;
+    height: auto;
+}
+
+.github {
+    width: 100%;
+    height: auto;
+}
+
+.top {
+    display: flex;   
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.logo {
+    width: 100%;
+    height: auto;   
+}
+
+a {
+    text-decoration: none;
+    font-family: 'inter';
+    color: var(--cor-quatro);
+    color: #3D3D3D;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+a:hover {
+    color: var(--cor-um);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-div {  
+    display: flex;
+    flex-direction: column;
+}
+
+.left-div img {
+    padding-bottom: 40%;
+}
+
+.mid-div {
+    text-align: center;
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mid-div img {
+    padding-bottom: 5%;
+    max-width: 100%;
+    height: auto;
+}
+
+.right-div {  
+    display: flex;
+    flex-direction: column;
+}
+
+.right-div img {
+    padding-bottom: 40%;
+}
+
+.hipotese {
+    width: 100%;
+    height: auto;
+}
+
+.estilhaça-me {
+    width: 100%;
+    height: auto;
+}
+
+.jogo-do-amor {
+    width: 100%;
+    height: auto;
+}
+
+.sua-alteza {
+    width: 100%;
+    height: auto;
+}
+
+.principe {
+    width: 100%;
+    height: auto;
+}
+
+.teto {
+    width: 100%;
+    height: auto;
+}
+
+.liberte-me {
+    width: 100%;
+    height: auto;
+}
+
+.mentirosos {
+    width: 100%;
+    height: auto;
+}
